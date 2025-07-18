@@ -2,8 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
+
+}
+
+.content img {
+    height: 200px
+}
+
+.container img {
+    height: 100px;
+}
+
+.navbar ul li {
+    display: flex;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
     
+    
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
 }
