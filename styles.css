@@ -6,7 +6,11 @@
 }
 
 body {
-    display: flex;
+   height: 100vh;
+}
+
+.caixa-mae {
+     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 100px;
@@ -37,9 +41,10 @@ button {
 
 .logo-mario-luigi {
    position: absolute;
-    bottom: 20px;
-    right: 20px;
+    right: 10px;
+    margin: 300px;
     z-index: 1;
+
 }
 .logo-mario-luigi img {
     width: 300px;
@@ -48,9 +53,10 @@ button {
 
 .caixa-video {
     position: fixed;
+    top: 0;
     z-index: -1;
+    
 }
 video {
     width: 100vw;
-    height: 100vh;
 }
