@@ -5,10 +5,6 @@
     text-decoration: none;
 }
 
-body {
-
-}
-
 .content img {
     height: 200px
 }
@@ -37,4 +33,11 @@ button {
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+}
+
+.logo-mario {
+   position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: -2;
 }
