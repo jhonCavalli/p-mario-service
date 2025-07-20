@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body {
+    display: flex;
+}
+
 .content img {
     height: 200px
 }
