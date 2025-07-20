@@ -35,9 +35,13 @@ button {
     cursor: pointer;
 }
 
-.logo-mario {
+.logo-mario-luigi {
    position: absolute;
     bottom: 20px;
     right: 20px;
     z-index: -2;
+}
+.logo-mario-luigi img {
+    width: 300px;
+    height: 300px;
 }
