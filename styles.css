@@ -7,10 +7,19 @@
 
 body {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
 }
 
 .content img {
     height: 200px
+}
+
+.content {
+    width: 40%;
+
 }
 
 .container img {
