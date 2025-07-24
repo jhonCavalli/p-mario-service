@@ -18,11 +18,12 @@ body {
 }
 
 .caixa-principal img {
-    height: 200px
+    height: 200px;
 }
 
 .caixa-principal {
     width: 40%;
+    margin-left: -500px;
 
 }
 
