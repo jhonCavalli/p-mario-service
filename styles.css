@@ -98,5 +98,20 @@ p {
 }
 
 .header {
-    
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    cursor: pointer;
+
+
+}
+
+.header img {
+    width: 60px
+}
+
+.header a {
+    color: #fff;
+    font-size: 20px;
 }
