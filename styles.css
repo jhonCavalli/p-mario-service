@@ -43,6 +43,12 @@ button {
     margin-top: 20px;
 }
 
+button:hover {
+    background-color: #fff;
+    color: #c51111;
+    transition: all 1.1s ease-in-out;
+}
+
 .logo-mario-luigi {
    position: absolute;
     right: 10px;
