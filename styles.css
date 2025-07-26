@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -73,7 +74,7 @@ video {
 
 p {
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .link-whatsapp {
@@ -113,5 +114,5 @@ p {
 
 .header a {
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
 }
