@@ -75,3 +75,10 @@ p {
     color: #fff;
     font-size: 20px;
 }
+
+.link-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
