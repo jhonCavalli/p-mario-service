@@ -136,8 +136,8 @@ p {
     gap: 20px;
     flex-direction: column;
     position: fixed;
-    top: 50px;
-    left: 50px;
+    left: -300%;
+    top: 30%;
     padding: 20px;
     border-radius: 10px;
 }
