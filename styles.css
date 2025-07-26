@@ -117,3 +117,9 @@ p {
     color: #fff;
     font-size: 15px;
 }
+
+.header a:hover {
+    color: #c51111;
+    font-size: 15px;
+    transition: all 1s ease-in-out;
+}
