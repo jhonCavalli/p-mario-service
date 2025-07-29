@@ -142,10 +142,10 @@ p {
     width: 280px;
     display: flex;
     gap: 20px;
-    flex-direction: column;
+    flex-direction: column;                                   
     position: fixed;
     top: 30%;
-    left:50%;
+    left:-300%;
     transform: translatex(-50%);
     padding: 20px;
     z-index: 1000;
@@ -177,3 +177,15 @@ textarea {
     height: 100vh;
    /* background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);*/
 }
+
+
+
+ /*   inicial   
+ top 30%
+left -300%
+                                                                       
+final
+top 30%
+left 50%
+transform translateX(-50%);                
+*/
