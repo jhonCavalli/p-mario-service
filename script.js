@@ -14,12 +14,17 @@ guardar o que quiser la dentro.
  um trecho de codigo que , so e executado,quando vc chamado.
 
 
+ 
+
+
  */
 
 const form = document.querySelector (".formulario")
+const mascara = document.querySelector(".mascara-formulario")
 
 
 function cliqueiNoBotao() {
     form.style.left = "50%"
     form.style.transform = "translateX(-50%)"
+    mascara.style.visibility = "visible"
 }
