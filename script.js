@@ -15,3 +15,9 @@ guardar o que quiser la dentro.
 
 
  */
+
+
+function cliqueiNoBotao() {
+    console.log("Cliquei no botão!");
+}
+ 
