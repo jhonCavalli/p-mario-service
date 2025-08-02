@@ -151,7 +151,7 @@ p {
     padding: 20px;
     z-index: 1000;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-    transition: left 4s ease-in-out;
+    transition: left 1s ease-in-out;
     
 
 }
@@ -179,7 +179,7 @@ textarea {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-    transform: visibility 4s ease-in-out;
+    transform: visibility 1s ease-in-out;
 }
 
 

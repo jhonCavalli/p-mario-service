@@ -6,7 +6,7 @@ dev-club
 
 Landing page inspirada no Mario Bros com formulário animado e fundo em vídeo.
 
-![Preview do formulário](img/)
+![Discrição da Imagem](img/Captura%20de%20tela%202025-08-02%20011359.png)
 
 ## Funcionalidades
 - Botão que abre formulário com animação de slide.
