@@ -16,8 +16,10 @@ guardar o que quiser la dentro.
 
  */
 
+const form = document.querySelector (".formulario")
+
 
 function cliqueiNoBotao() {
-    console.log("Cliquei no botão!");
+    form.style.left = "50%"
+    form.style.transform = "translateX(-50%)"
 }
- 
