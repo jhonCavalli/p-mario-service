@@ -29,4 +29,6 @@ function mostrarForm() {
     mascara.style.visibility = "visible"
 }
 
-function
+function esconderForm() {
+    
+}
