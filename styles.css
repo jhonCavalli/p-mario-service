@@ -134,7 +134,7 @@ p {
 .header a:hover {
     color: #c51111;
     font-size: 15px;
-    transition: all 1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 .formulario {
@@ -146,12 +146,21 @@ p {
     position: fixed;
     top: 30%;
     left:-300%;
+    transform:  translate(-50%, -50%)scale(0.95);
     padding: 20px;
     z-index: 1000;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
-    transition: left 0.4s ease;
-    
+    transition: opacity 0.4s, transform 0.4s ease;
+    pointer-events: none;
+
 }
+
+.formulario.ativo {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+    pointer-events: auto;
+}
+    
 
 input {
     height: 40px;
@@ -170,12 +179,19 @@ textarea {
 }
 
 .mascara-formulario {
+    opacity: 0;
     visibility: hidden;
     position: fixed;
     top: 0;
     width: 100vw;
     height: 100vh;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transform: opacity 0.4s;
+}
+
+.mascara-formulario.ativo {
+    opacity: 1;
+    visibility: visible;
 }
 
 
