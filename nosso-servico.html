@@ -5,51 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nossos Serviços</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-
-    <!-- CSS do menu responsivo (mesmo usado no index) -->
-    <link rel="stylesheet" href="styles.css">
-
-    <!-- CSS específico da página de serviços -->
     <link rel="stylesheet" href="style-nosso-servico.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Modak&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- ======== MENU / HEADER ======== -->
+    <!-- Menu -->
     <header class="header">
         <img src="img/icon.png" alt="Icone do Mario Bros" />
-        
-        <div class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('show')">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-        <nav class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="nosso-servico.html" class="ativo">Nosso Serviços</a>
-            <a href="contato.html">Fala Conosco</a>
-        </nav>
+        <a href="index.html">Home</a>
+        <a href="nosso-servico.html" class="ativo">Nosso Serviços</a>
+        <a href="contato.html">Fala Conosco</a>
     </header>
 
-    <!-- ======== CONTEÚDO PRINCIPAL ======== -->
-    <main>
-        <section class="servicos-intro">
-            <h1>Nossos Serviços 
-                <img src="img/icon.png" alt="icon-img" class="icon-titulo">
-            </h1>
-            <img src="img/logo.png" alt="logo-mario" class="logo-servico">
-            <p>
-                Nossa empresa oferece serviços de alta qualidade, com profissionais experientes e equipamentos
-                de última geração. Nossa equipe trabalha arduamente para garantir que cada cliente receba o melhor atendimento possível.
-            </p>
-        </section>
+    <!-- Vídeo de fundo -->
+    <div class="caixa-video-servico">   
+        <video src="Video/video.mp4" autoplay loop muted></video>
+    </div>
 
-        <div class="caixa-video-servico">   
-            <video src="Video/video.mp4" autoplay loop muted></video>
-        </div>
-    </main>
+    <!-- Máscara para legibilidade -->
+    <div class="mascara"></div>
+
+    <!-- Conteúdo -->
+    <section class="servicos-intro">
+        <h1>Nossos Serviços <img src="img/icon.png" alt="icon-img" style="height:40px; vertical-align: middle;"></h1>
+        <img src="img/logo.png" alt="logo-mario">
+        <p>
+            Nossa empresa oferece serviços de alta qualidade, com profissionais experientes e equipamentos
+            de última geração. Nossa equipe trabalha arduamente para garantir que cada cliente receba o melhor atendimento possível.
+        </p>
+    </section>
 
 </body>
 </html>
