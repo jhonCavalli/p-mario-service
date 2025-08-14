@@ -21,7 +21,7 @@ body {
 }
 
 .caixa-principal img {
-    height: 200px;
+    height: 500px;
 }
 
 .caixa-principal {
@@ -198,6 +198,13 @@ min --> valor maior que Npx, aplica o css do media
     }
 
     .caixa-mae {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .caixa-principal {
+        display: flex;
+        align-items: center;
         flex-direction: column;
     }
 
