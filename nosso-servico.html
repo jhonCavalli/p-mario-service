@@ -3,23 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nossos Serviços</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+
+    <!-- CSS do menu responsivo (mesmo usado no index) -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- CSS específico da página de serviços -->
     <link rel="stylesheet" href="style-nosso-servico.css">
-    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Modak&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Nosso Serviços</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Modak&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- ======== MENU / HEADER ======== -->
     <header class="header">
         <img src="img/icon.png" alt="Icone do Mario Bros" />
-        <a href="index.html">Home</a>
-        <a href="nosso-servico.html" class="ativo">Nosso Serviços</a>
+        
+        <div class="menu-toggle" onclick="document.querySelector('.nav-links').classList.toggle('show')">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="nosso-servico.html" class="ativo">Nosso Serviços</a>
+            <a href="contato.html">Fala Conosco</a>
+        </nav>
     </header>
 
+    <!-- ======== CONTEÚDO PRINCIPAL ======== -->
     <main>
-        <section>
-            <h1>Nossos Serviços</h1>
+        <section class="servicos-intro">
+            <h1>Nossos Serviços 
+                <img src="img/icon.png" alt="icon-img" class="icon-titulo">
+            </h1>
+            <img src="img/logo.png" alt="logo-mario" class="logo-servico">
+            <p>
                 Nossa empresa oferece serviços de alta qualidade, com profissionais experientes e equipamentos
-                de última geração. Nossa equipe trabalha arduamente para garantir que cada cliente receba o melhor atendimento.
+                de última geração. Nossa equipe trabalha arduamente para garantir que cada cliente receba o melhor atendimento possível.
             </p>
         </section>
 
@@ -27,5 +50,6 @@
             <video src="Video/video.mp4" autoplay loop muted></video>
         </div>
     </main>
+
 </body>
 </html>
