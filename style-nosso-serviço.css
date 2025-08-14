@@ -1,5 +1,20 @@
 * {
     margin: 0;
     padding: 0;   
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
 }
 
+
+body {
+   height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-video-serviço
