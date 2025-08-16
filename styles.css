@@ -171,6 +171,70 @@ input, textarea {
 }
 
 /* ======================== MEDIA QUERIES RESPONSIVAS ======================== */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .header img {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 0.85rem;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 400px) {
+  /* Header empilhado */
+  .header {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 8px !important;
+    margin: 10px 0 !important;
+  }
+
+  .header img {
+    width: 50px !important;
+    margin-bottom: 5px !important;
+  }
+
+  .header a {
+    font-size: 0.9rem !important;
+  }
+
+  /* Caixa principal */
+  .caixa-principal {
+    width: 95% !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  .caixa-principal p {
+    font-size: 0.85rem !important;
+    line-height: 1.3 !important;
+    word-break: break-word !important; /* força quebra sem estourar */
+  }
+
+  /* Logo Mario & Luigi */
+  .logo-mario-luigi {
+    width: 150px !important;   
+  margin: 15px auto !important;
+  position: relative !important;
+  display: flex !important;
+  justify-content: center !important;
+  }
+
+  .logo-mario-luigi img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
 
 
 
