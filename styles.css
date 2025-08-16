@@ -221,19 +221,19 @@ input, textarea {
     word-break: break-word !important; /* força quebra sem estourar */
   }
 
-  /* Logo Mario & Luigi */
-  .logo-mario-luigi {
-    width: 150px !important;   
-  margin: 15px auto !important;
-  position: relative !important;
-  display: flex !important;
-  justify-content: center !important;
-  }
+/* Logo Mario & Luigi */
+.logo-mario-luigi {
+  display: flex;           /* 1. Transforma o container em flex */
+  justify-content: center; /* 2. Centraliza o item (a imagem) horizontalmente */
+  margin: 15px 0;          /* Mantém a margem vertical que você já tinha */
+  width: 100%;             /* Garante que o container ocupe o espaço disponível */
+}
 
-  .logo-mario-luigi img {
-    width: 100% !important;
-    height: auto !important;
-  }
+.logo-mario-luigi img {
+  width: 220px; /* Aumentei um pouco, ajuste como preferir */
+  height: auto;
+  /* Não precisa mais de margin: auto ou display: block aqui */
+}
 }
 
 
