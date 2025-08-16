@@ -53,10 +53,12 @@ button:hover {
 
 /* ======================== LOGO MÁRIO/LUIGI ======================== */
 .logo-mario-luigi {
-    position: absolute;
+    position: relative;
     right: 10px;
-    margin: 300px;
+    margin:20px auto;
     z-index: 1;
+    display:flex ;
+    justify-content:center ;
 }
 
 .logo-mario-luigi img {
